@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Продукция — The Keepers of Christmas Magic</title>
+  <meta name="description" content="Коллекция ёлочных игрушек ручной работы: шары, фигурки, звёзды и гирлянды от The Keepers of Christmas Magic.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="products">
+
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <svg class="logo-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="20" stroke="#2D5A3D" stroke-width="2"/>
+          <path d="M22 8 L26 18 L22 16 L18 18 Z" fill="#6B2D3C"/>
+          <circle cx="22" cy="26" r="8" fill="#A8C5A0" stroke="#2D5A3D" stroke-width="1.5"/>
+          <path d="M22 20 L22 32" stroke="#C9A962" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="22" cy="34" r="2" fill="#C9A962"/>
+        </svg>
+        <div class="logo-text">
+          <span class="logo-title">The Keepers of Christmas Magic</span>
+          <span class="logo-subtitle">Хранители волшебства</span>
+        </div>
+      </a>
+      <button class="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav">
+        <a href="index.html" class="nav-link" data-page="home">Главная</a>
+        <a href="about.html" class="nav-link" data-page="about">О фабрике</a>
+        <a href="products.html" class="nav-link" data-page="products">Продукция</a>
+        <a href="production.html" class="nav-link" data-page="production">Производство</a>
+        <a href="brandbook.html" class="nav-link" data-page="brandbook">Брендбук</a>
+        <a href="contacts.html" class="nav-link" data-page="contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero page-hero-green">
+    <div class="container">
+      <h1 class="reveal">Продукция</h1>
+      <p class="reveal reveal-delay-1">Каждая игрушка — маленькое чудо, созданное для вашей семейной ёлки</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filters reveal">
+        <div class="filter-group">
+          <span class="filter-label">Форма:</span>
+          <button class="filter-btn active" data-group="shape" data-value="all">Все</button>
+          <button class="filter-btn" data-group="shape" data-value="ball">Шар</button>
+          <button class="filter-btn" data-group="shape" data-value="star">Звезда</button>
+          <button class="filter-btn" data-group="shape" data-value="figurine">Фигурка</button>
+          <button class="filter-btn" data-group="shape" data-value="cone">Конусы</button>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Цвет:</span>
+          <button class="filter-btn active" data-group="color" data-value="all">Все</button>
+          <button class="filter-btn" data-group="color" data-value="red">Красный</button>
+          <button class="filter-btn" data-group="color" data-value="green">Зелёный</button>
+          <button class="filter-btn" data-group="color" data-value="gold">Золотой</button>
+          <button class="filter-btn" data-group="color" data-value="white">Белый</button>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Материал:</span>
+          <button class="filter-btn active" data-group="material" data-value="all">Все</button>
+          <button class="filter-btn" data-group="material" data-value="glass">Стекло</button>
+          <button class="filter-btn" data-group="material" data-value="wood">Дерево</button>
+          <button class="filter-btn" data-group="material" data-value="fabric">Текстиль</button>
+        </div>
+      </div>
+
+      <div class="products-grid">
+        <article class="product-card reveal" data-shape="ball" data-color="red" data-material="glass">
+          <img class="product-image" src="images/зимный.jpg" alt="Шар «Зимний вечер»">
+          <div class="product-info">
+            <h3>Шар «Зимний вечер»</h3>
+            <p>Стеклянный шар с росписью уютного домика в снегу. Идеален для семейной ёлки в гостиной.</p>
+            <div class="product-tags">
+              <span class="product-tag">Шар</span>
+              <span class="product-tag">Стекло</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-1" data-shape="star" data-color="gold" data-material="wood">
+          <img class="product-image" src="images/снежинка.jpg" alt="Звезда «Наследие»">
+          <div class="product-info">
+            <h3>Звезда «Наследие»</h3>
+            <p>Деревянная верхушка с золотой росписью. Передаётся из поколения в поколение как семейная реликвия.</p>
+            <div class="product-tags">
+              <span class="product-tag">Звезда</span>
+              <span class="product-tag">Дерево</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-2" data-shape="figurine" data-color="white" data-material="fabric">
+          <img class="product-image" src="images/снеговик.jpg" alt="Фигурка «Снежная семья»">
+          <div class="product-info">
+            <h3>Фигурка «Снежная семья»</h3>
+            <p>Текстильная семейка снеговиков — мама, папа и малыш. Ручная вышивка, мягкая и тёплая.</p>
+            <div class="product-tags">
+              <span class="product-tag">Фигурка</span>
+              <span class="product-tag">Текстиль</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-shape="ball" data-color="green" data-material="glass">
+          <img class="product-image" src="images/сказка.jpg" alt="Шар «Лесная сказка»">
+          <div class="product-info">
+            <h3>Шар «Лесная сказка»</h3>
+            <p>Изумрудный стеклянный шар с миниатюрной ёлочкой внутри. Создаёт ощущение зимнего леса.</p>
+            <div class="product-tags">
+              <span class="product-tag">Шар</span>
+              <span class="product-tag">Стекло</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-1" data-shape="cone" data-color="red" data-material="fabric">
+          <img class="product-image" src="images/колокольчик.jpg" alt="Колокольчик «Первый снег»">
+          <div class="product-info">
+            <h3>Колокольчик «Первый снег»</h3>
+            <p>Бархатный колокольчик с золотой вышивкой. Тихий перезвон напоминает о детских зимах.</p>
+            <div class="product-tags">
+              <span class="product-tag">Конусы</span>
+              <span class="product-tag">Текстиль</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-2" data-shape="figurine" data-color="red" data-material="wood">
+          <img class="product-image" src="images/дед мороз.jpg" alt="Фигурка «Дед Мороз»">
+          <div class="product-info">
+            <h3>Фигурка «Дед Мороз»</h3>
+            <p>Деревянный Дед Мороз в традиционном стиле. Расписан вручную натуральными красками.</p>
+            <div class="product-tags">
+              <span class="product-tag">Фигурка</span>
+              <span class="product-tag">Дерево</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-shape="ball" data-color="gold" data-material="glass">
+          <img class="product-image" src="images/поколение.jpg" alt="Шар «Золотое поколение»">
+          <div class="product-info">
+            <h3>Шар «Золотое поколение»</h3>
+            <p>Позолоченный стеклянный шар с гравировкой «С любовью, навсегда». Подарок для новорождённого.</p>
+            <div class="product-tags">
+              <span class="product-tag">Шар</span>
+              <span class="product-tag">Стекло</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-1" data-shape="star" data-color="white" data-material="glass">
+          <img class="product-image" src="images/звезда.jpg" alt="Снежинка «Башкирский узор»">
+          <div class="product-info">
+            <h3>Снежинка «Башкирский узор»</h3>
+            <p>Матовое стекло с национальным орнаментом. Символ связи корней и современности.</p>
+            <div class="product-tags">
+              <span class="product-tag">Звезда</span>
+              <span class="product-tag">Стекло</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-2" data-shape="cone" data-color="green" data-material="wood">
+          <img class="product-image" src="images/елочка.jpg" alt="Ёлочка «Маленький друг»">
+          <div class="product-info">
+            <h3>Ёлочка «Маленький друг»</h3>
+            <p>Миниатюрная деревянная ёлочка с подвесом. Отличный подарок ребёнку на первый самостоятельный Новый год.</p>
+            <div class="product-tags">
+              <span class="product-tag">Конусы</span>
+              <span class="product-tag">Дерево</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-text">
+              <span class="logo-title">The Keepers of Christmas Magic</span>
+              <span class="logo-subtitle">Хранители волшебства</span>
+            </div>
+          </a>
+          <p>Ёлочные игрушки ручной работы, созданные с любовью в Уфе.</p>
+        </div>
+        <div>
+          <h4>Навигация</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">О фабрике</a></li>
+            <li><a href="products.html">Продукция</a></li>
+            <li><a href="production.html">Производство</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Бренд</h4>
+          <ul class="footer-links">
+            <li><a href="brandbook.html">Брендбук</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Связь</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:keepersofchristmas@mail.com">keepersofchristmas@mail.com</a></li>
+            <li><a href="tel:+73472234567">+7 (347) 223-45-67</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 The Keepers of Christmas Magic</span>
+        <span>Сделано с теплом и заботой</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
